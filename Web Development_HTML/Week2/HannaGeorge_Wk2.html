@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Payment Page</title>
+    </head>
+    <body>
+        <header>
+            <h2><a href="./HannaGeorge_Wk2.html">Fake Store</a></h2>
+        </header>
+        <nav>
+            <section>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        </nav>
+        <main>
+            <h1>Checkout Order #1234 - Billing and Payment</h1>
+            <p>Order Total : $129.57</p>
+            <fieldset>
+                <legend>Billing Information</legend>
+                <div>
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" name="firstName" placeholder="John">
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe">
+            </div>
+            <div>
+                <label for="address">Address: </label>
+                <input type="text" id="Address" name="Address" placeholder="123 Fake Street"> 
+            </div>
+            <div>
+                <label for="City">City: </label>
+                <input type="text" id="City" name="City" placeholder="Toronto"> 
+                <label for="Province">Province</label>
+                <select name="Province" id="province">
+                    <option value=""disable selected>--Choose province--</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="ON">Ontario</option>
+                    <option value="QC">Quebec</option>
+                </select>
+                <label for="postalCode">Postal Code: </label>
+                <input type="text" id="postalCode" name="postalCode" placeholder="A1A 1A1">
+            </div>
+                <div>
+                <label for="phoneNumber">Phone Number: </label>
+                <input type="text" id="phoneNumber" name="postalCode" placeholder="555-555-5555">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <fieldset>
+                    <legend>Choose Card</legend>
+                    <div>
+                        <input type="radio" id="MasterCard" name="card" checked>
+                        <label for="MasterCard">MasterCard</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Visa" name="card">
+                        <label for="Visa">Visa</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="CardNumber">Card Number: </label>
+                    <input type="number" id="cardNumber" name="cardNumber" placeholder="1234 1234 1234">
+                </div>
+                <div>
+                    <label for="cardExpiry">Card Expiry: </label>
+                    <input type="text" id="cardExpiry" name="cardExpiry" inputmode="numeric" placeholder="MM/YY">
+                </div>
+            </fieldset>
+            <button type="button">Pay now</button>
+        </main>
+        <footer>
+            &copf;Copyright HTTP5111,2023.
+        </footer>
+    </body>
+</html>
